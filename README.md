@@ -8,9 +8,9 @@ Table of Contents
 
 * [Name](#name)
 * [Functions](#functions)
-* [init_host_upstream](#init_host_upstream)
-* [prepare](#prepare)
-* [action](#action)
+    * [init_host_upstream](#init_host_upstream)
+    * [prepare](#prepare)
+    * [action](#action)
 
 Synopsis
 ========
@@ -83,6 +83,7 @@ easy_balancer.action(ngx.ctx.prepared)
 
 Functions
 =========
+
 init_host_upstream
 ------------------
 **syntax:** `easy_balancer.init_host_upstream(host, servers_string)`
