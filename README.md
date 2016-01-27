@@ -89,7 +89,7 @@ init_host_upstream
 **syntax:** `easy_balancer.init_host_upstream(host, servers_string)`
 *servers_string:*`"192.168.1.1； 192.168.1.2:8080; 192.168.1.3; 192.168.1.4:8080"`
 
-prapare
+prepare
 -------
 **syntax:** `prepared_request = easy_balancer.prepare(host, hash_key_string)`
 
